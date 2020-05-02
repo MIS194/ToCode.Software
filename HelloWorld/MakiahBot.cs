@@ -14,7 +14,7 @@ namespace HelloWorld
             }
             else if (response.ToLower() == "maybe")
             {
-                AnswerMaybe();
+                AnswerMaybe(Search me! I do not know);
             }
         }
 
