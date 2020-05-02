@@ -11,10 +11,10 @@ namespace HelloWorld
             if (response.ToLower() == "yes")
             {
                 TalkToThePickleEater();
-            }
+            }Console.WriteLine (Do they taste good?)
             else if (response.ToLower() == "maybe")
             {
-                AnswerMaybe();
+                AnswerMaybe(Well I would not know.);
             }
         }
 
